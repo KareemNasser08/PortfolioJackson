@@ -1,0 +1,32 @@
+<main class="container-fluid vh-100 overflow-y-auto">
+  <div class="row my-4 px-2">
+    <div class="sectionHeading py-4 w-50">
+      <h6 class="text-muted animate__animated animate__fadeInDown animate__slow">MY WORK</h6>
+      <p class="playfair-display fw-bold fs-6 lh-lg animate__animated animate__fadeInLeft animate__slow">RECENT WORK</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <ul class="nav col-12">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="graphicdesign" routerLinkActive="active">Graphic Design</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="webdesign" routerLinkActive="active">Web Design</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="software" routerLinkActive="active">Software</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="apps" routerLinkActive="active">Apps</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="row my-4">
+    <div class="col-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</main>

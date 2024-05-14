@@ -1,0 +1,16 @@
+aside {
+    max-height: 100vh;
+    min-height: 100vh;
+
+    background-color: #f2f3f7;
+    font-size: small;
+    letter-spacing: 1px;
+
+    .active {
+        color: #2c98f0 !important;
+    }
+
+    a.nav-link {
+        font-size: 12px;
+    }
+}

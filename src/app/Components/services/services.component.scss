@@ -1,0 +1,34 @@
+.row {
+    .col-md-4 {
+        width: 220px;
+        height: 280px;
+
+        .cardIconContainer {
+            transform: translateY(-25%);
+
+        }
+
+        .cardIcon {
+            height: 3rem;
+            width: 3rem;
+
+            transform: rotate(45deg);
+
+            i {
+                transform: rotate(-45deg);
+            }
+        }
+
+    }
+}
+
+.servicesFooter {
+    background-image: url('/assets/cover_bg_1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.darkOverlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
